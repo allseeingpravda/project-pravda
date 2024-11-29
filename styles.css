@@ -1,0 +1,41 @@
+/* General Styling */
+body {
+    background: linear-gradient(to bottom, #91d8f7, #ffffff);
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    color: #2c3e50;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styling */
+header {
+    text-align: center;
+    padding: 50px 10px;
+}
+header h1 {
+    font-size: 3em;
+    color: #d4af37;
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.8), 0 0 16px #d4af37;
+}
+header p {
+    font-size: 1.2em;
+    color: #333;
+}
+
+/* Section Styling */
+.gradient-bg {
+    background: linear-gradient(to right, #ff9a9e, #fad0c4);
+    padding: 40px 10%;
+    color: #333;
+}
+.mystical {
+    background: url('parchment-texture.jpg') center/cover;
+    padding: 40px 10%;
+    text-align: center;
+    color: #2c3e50;
+}
+.mystical .symbol {
+    font-size: 3em;
+    color: #fff;
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.8), 0 0 16px #d4af37;
+}
